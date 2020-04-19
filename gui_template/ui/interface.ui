@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabWidget</class>
+ <widget class="QTabWidget" name="TabWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabWidget</string>
+  </property>
+  <property name="tabPosition">
+   <enum>QTabWidget::North</enum>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <property name="currentIndex">
+   <number>0</number>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>30</width>
+    <height>30</height>
+   </size>
+  </property>
+  <property name="usesScrollButtons">
+   <bool>false</bool>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="tabsClosable">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="MainTab">
+   <attribute name="icon">
+    <iconset>
+     <normaloff>../../assets/load-icon-inverted.png</normaloff>../../assets/load-icon-inverted.png</iconset>
+   </attribute>
+   <attribute name="title">
+    <string>Main</string>
+   </attribute>
+   <layout class="QGridLayout" name="gridLayout_8">
+    <item row="4" column="1">
+     <widget class="QPushButton" name="TestButton">
+      <property name="text">
+       <string>Button</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="1">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="ShowProgressButton">
+      <property name="text">
+       <string>Progress</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="FilesSelectButton">
+      <property name="text">
+       <string>Files</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="FolderSelectButton">
+      <property name="text">
+       <string>Folder</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="SettingsTab">
+   <attribute name="icon">
+    <iconset>
+     <normaloff>../../assets/settings-icon-inverted.png</normaloff>../../assets/settings-icon-inverted.png</iconset>
+   </attribute>
+   <attribute name="title">
+    <string>Settings</string>
+   </attribute>
+   <layout class="QGridLayout" name="gridLayout_15"/>
+  </widget>
+  <widget class="QWidget" name="ToolsTab">
+   <attribute name="icon">
+    <iconset>
+     <normaloff>../../assets/tools-icon-inverted.png</normaloff>../../assets/tools-icon-inverted.png</iconset>
+   </attribute>
+   <attribute name="title">
+    <string>Tools</string>
+   </attribute>
+   <layout class="QGridLayout" name="gridLayout_14"/>
+  </widget>
+  <widget class="QWidget" name="LogTab">
+   <attribute name="icon">
+    <iconset>
+     <normaloff>../../assets/log-icon-inverted.png</normaloff>../../assets/log-icon-inverted.png</iconset>
+   </attribute>
+   <attribute name="title">
+    <string>Log</string>
+   </attribute>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QTextBrowser" name="LogBrowser">
+      <property name="font">
+       <font>
+        <family>Consolas</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="lineWrapMode">
+       <enum>QTextEdit::NoWrap</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

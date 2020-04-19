@@ -1,0 +1,17 @@
+Version 0.1
+April 2020
+
+Built using Python 3.7.6 and nuitka 0.6.7
+compiler: gcc.exe (x86_64-win32-sjlj-rev0, Built by MinGW-W64 project) 8.1.0
+
+Built on 19-04-2020 20:39
+by user willlaur in 55 sec
+
+Packages:
+---------
+PyQt5: 5.14.1
+qdarkstyle: 2.8
+xlrd: 1.2.0
+xlsxwriter: 1.2.8
+fire: 0.2.1
+pywin32: 227
